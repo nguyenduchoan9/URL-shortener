@@ -124,6 +124,7 @@ GEM
     nokogiri (1.14.2)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
+    pg (1.4.6)
     puma (5.6.5)
       nio4r (~> 2.0)
     racc (1.6.2)
@@ -176,8 +177,6 @@ GEM
       rspec-mocks (~> 3.11)
       rspec-support (~> 3.11)
     rspec-support (3.12.0)
-    sqlite3 (1.6.2)
-      mini_portile2 (~> 2.8.0)
     thor (1.2.1)
     timeout (0.3.2)
     tzinfo (2.0.6)
@@ -198,10 +197,10 @@ DEPENDENCIES
   druuid
   factory_bot_rails
   faker
+  pg
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.3)
   rspec-rails (~> 6.0.0)
-  sqlite3 (~> 1.4)
   tzinfo-data
 
 RUBY VERSION
