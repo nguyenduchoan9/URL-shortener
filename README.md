@@ -2,11 +2,18 @@
 
 ### Prerequisites
 
-Ruby 2.7.2
+<ul>
+  <li>Ruby 2.7.2</li>
+  <li>PostgresQL 14</li>
+</ul>
 
 ### Install
 
-```ruby
+```bash
+git pull https://github.com/nguyenduchoan9/URL-shortener.git
+```
+
+```bash
 bundle
 ```
 
@@ -16,7 +23,13 @@ bundle
 bin/rails s
 ```
 
-### API endpoint
+### Heroku App
+
+```bash
+https://url-shortener-snowflake.herokuapp.com
+```
+
+### API
 
 #### Encode
 
